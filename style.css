@@ -1,0 +1,397 @@
+*{
+    font-family: 'Rubik' ,sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 800;
+    color: #007bff;
+}
+
+.nav-item{
+    padding: 0 0 0 10px;
+    margin: 0 0 0 20px;
+}
+
+.navbar {
+    background:#000000;
+    padding: .5em 1rem;
+    background:transparent;
+}
+
+.nav-link {
+    padding: 8px 8px 8px 0px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-button{
+    background-color:#007bff ;
+    border-radius: 20px;
+}
+
+
+.home-area {
+    position: relative;
+    min-height: 100vh;
+    background: url(1611350167_17-p-fon-barber-17.jpg) no-repeat center center fixed;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-area h3 {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    border-left: 5px solid #007bff;
+    
+}
+
+.blc {
+    font-size: 64px;
+    color: #007bff;
+    font-weight: 700;
+}
+
+b {
+    font-size: 64px;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.fab:nth-child(2){
+    margin-right: 10px;
+    color: #007bff ;
+}
+.fab:nth-child(1){
+    margin-right: 10px;
+    color: #c0392f ;
+}
+
+.fab:nth-child(3){
+    margin-right: 10px;
+    color: #ff0000 ;
+}
+
+.fab:nth-child(4){
+    margin-right: 10px;
+    color: #001aff ;
+}
+
+.about-area{
+   min-height: 100%;
+    background: #000000;
+}
+
+.about-area h2{
+    position: relative;
+    font-size: 40px;
+    color: #007bff;
+   padding-bottom: 20px;
+    
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.about-title h2::after {
+    background: url(title-after.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    content: "";
+    bottom: 0px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.blcs {
+    font-size: 35px;
+    color: #007bff;
+}
+
+p{
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.navbar-reduce {
+	transition: all .5s ease-in-out;
+	background-color: #000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.skill-item {
+    margin-bottom: 30px;
+  }
+  
+  .skill-item h6 {
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .skill-item .skill-progress {
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+  .skill-item .skill-progress-bar {
+    width: 0;
+    height: 10px;
+    position: relative;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .skill-item .skill-progress-bar span {
+    position: absolute;
+    right: 0;
+    top: -24px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+.b-1{
+    background: red;
+}
+
+.b-2{
+    background:blue;
+}
+
+.b-3{
+    background:green;
+}
+
+.b-4 {
+    background: yellow;
+}
+
+.b-5{
+    background: indigo;
+}
+
+.b-6 {
+    background: #007bff;
+}
+
+.cv {
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    background: #0237aa;
+    border: 2px solid rgb(0, 102, 255);
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 70px;
+}
+
+.cv:hover {
+    color: black;
+}
+
+.service{
+    background: black;
+    min-height: 100vh;
+
+}
+
+.service-title h2 {
+    color: #007bff;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.service-title h2::after {
+    background: url(title-after.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    content: "";
+    bottom: 0px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.card{
+    background: none;
+    border: 1px dotted #adacac;
+    margin-bottom: 20px;
+}
+
+.card .fab{
+    color: #adadad;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.card h3 {
+    font-size: 17px;
+    color: #007bff;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    padding: 0 20px;
+    margin-bottom: 0px;
+}
+
+.btn-card {
+    margin: 20px 0;
+    background: #28A745;
+    border-radius: 20px;
+    border: 3px solid #28A754;
+    padding: 5px 10px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.btn-card:hover {
+    background-color: #007bff;
+    transition: all .5s;
+    border:3px solid #007bff;
+    
+}
+
+.card:hover .fab{
+    color: #007bff;
+    transition: all .5s;
+}
+
+.footer {
+    background: url(http://ebaytemplate.com/thesoft/html/ava/assets/img/contact-bg.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-title {
+    margin-top:100px;
+
+}
+
+.footer-title h2 {
+    position: relative;
+    color:#FFF;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.footer-title h2::after {
+    background: url(title-after.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    content: "";
+    bottom: 0px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.bg-dark{
+    
+        background-color: #343a40!important;
+    }
+
+.input{
+    width: 100%;
+    background:none;
+    border: 1px solid #ffffff;
+    color: #FFF;
+    height: 40px;
+    margin-top:50px;
+}
+
+textarea{
+    width:100%;
+    background:none;
+    border:1px solid #FFF;
+    margin-top:20px;
+    min-height: 200px;
+}
+
+.input::placeholder{
+    color: #FFF;
+    font-weight: 200;
+}
+
+.buton{
+    background: #007bff;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border:1px solid #004b9b;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.section-small-padding{
+    padding: 30px 30px;
+    background:#007bff;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 30px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    background: #ffffff;
+    transition: all 500ms ease;
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background: #007bff;
+    color: white;
+}
+
+@media only screen and (max-width: 990px) {
+    .blc{
+        font-size: 40px;
+    }
+
+    b{
+        font-size: 28px;
+    }
+}
